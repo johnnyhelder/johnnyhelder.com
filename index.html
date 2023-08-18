@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny Helder</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #fff;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* Estilos para o email e animação ao passar o mouse */
+        a.email {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s, text-decoration 0.3s;
+        }
+
+        a.email:hover {
+            color: #ccc;
+            text-decoration: underline;
+        }
+
+        /* Estilo para a barra cinza claro */
+        .barra {
+            background-color: #ccc;
+            height: 20px;
+            width: 2px;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Texto centralizado -->
+    <p>Conhece-te a ti mesmo e conhecerás o universo e os deuses.</p>
+    
+    <!-- Rodapé -->
+    <footer>
+        <span>&copy; 2010 - <script>document.write(new Date().getFullYear());</script></span>
+        <div class="barra"></div>
+        <a class="email" href="mailto:eu@johnnyhelder.com">eu@johnnyhelder.com</a>
+    </footer>
+</body>
+</html>
