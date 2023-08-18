@@ -19,6 +19,17 @@
             height: 100vh;
         }
 
+        /* Estilo para o texto centralizado */
+        .centralizado {
+            text-align: center;
+            font-size: 2em;  /* Dobro do tamanho médio padrão */
+        }
+
+        .assinatura {
+            text-align: left;
+            margin-top: 15px;
+        }
+
         footer {
             position: absolute;
             bottom: 0;
@@ -33,12 +44,11 @@
         a.email {
             color: #fff;
             text-decoration: none;
-            transition: color 0.3s, text-decoration 0.3s;
+            transition: color 0.3s;
         }
 
         a.email:hover {
             color: #ccc;
-            text-decoration: underline;
         }
 
         /* Estilo para a barra cinza claro */
@@ -51,8 +61,13 @@
     </style>
 </head>
 <body>
-    <!-- Texto centralizado -->
-    <p>Conhece-te a ti mesmo e conhecerás o universo e os deuses.</p>
+    <div class="centralizado">
+        <!-- Texto principal -->
+        <p>Conhece-te a ti mesmo e conhecerás o universo e os deuses.</p>
+        
+        <!-- Assinatura -->
+        <p class="assinatura">Sócrates</p>
+    </div>
     
     <!-- Rodapé -->
     <footer>
