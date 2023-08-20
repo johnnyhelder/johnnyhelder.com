@@ -22,7 +22,7 @@
         /* Estilo para o texto centralizado */
         .centralizado {
             text-align: center;
-            font-size: 2em;  /* Dobro do tamanho médio padrão */
+            font-size: 2em;
         }
 
         .assinatura {
@@ -57,6 +57,25 @@
             height: 20px;
             width: 2px;
             margin: 0 15px;
+        }
+
+        /* Estilos específicos para dispositivos móveis */
+        @media (max-width: 768px) {
+            .centralizado {
+                font-size: 1.2em;
+                padding: 0 20px;  /* Adiciona um pouco de espaço lateral para melhorar a leitura */
+            }
+
+            footer {
+                flex-direction: column;  /* Organiza os itens do rodapé em coluna */
+                align-items: center;
+            }
+
+            .barra {
+                width: 50%;
+                height: 2px;
+                margin: 10px 0;  /* Espaçamento vertical entre a barra e os outros elementos */
+            }
         }
     </style>
 </head>
